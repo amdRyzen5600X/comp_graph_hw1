@@ -7,7 +7,7 @@ fn main() {
         .build()
         .expect("event loop building");
     let (window, display) = glium::backend::glutin::SimpleWindowBuilder::new()
-        .with_title("Glium tutorial #4")
+        .with_title("hw1")
         .build(&event_loop);
 
     #[derive(Copy, Clone)]
